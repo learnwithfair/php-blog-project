@@ -47,13 +47,13 @@ Thanks for visiting my GitHub account!
 
 ## How to use this Project
 
-Step-1: Clone this repository in your local machine.
-Step-2: Put the **blog** directory in the C:\xampp\htdocs folder.
-Step-3: Create a database named **blog_project** in the http://localhost/phpmyadmin/
-Step-4: Import the database file in the **blog_project** Database.
-Step-5: Run this project in the browser using url-> http://localhost/blog
-Step-6: For login Dashboard using url -> http://localhost/blog/admin
-Step-7: Admin Login Info-
+- Step-1: Clone this repository in your local machine using `bash gh repo clone learnwithfair/php-blog-project `
+- Step-2: Put the **blog** directory in the C:\xampp\htdocs folder.
+- Step-3: Create a database named **blog_project** in the `url http://localhost/phpmyadmin/ `
+- Step-4: Import the database file in the **blog_project** Database.
+- Step-5: Run this project in the browser using `url url-> http://localhost/blog `
+- Step-6: For login Dashboard using url -> `url http://localhost/blog/admin `
+- Step-7: Admin Login Info-
 
 ```php
 Email: learnwithfair@gmail.com
