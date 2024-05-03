@@ -1,0 +1,146 @@
+.about_me_container{
+    display: absolute;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    
+   
+}
+.about_me_details {
+    height: 490px;
+    width: 350px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid #3b3b98;
+    box-shadow: 0px 5px 9px rgb(71, 56, 56);
+    border-radius: 5px;
+    margin: 20px;
+}
+.about_me_details:hover {
+    box-shadow: 0px 7px 15px rgb(71, 56, 56);
+}
+.about_me_book {
+    transform-style: preserve-3d;
+    position: relative;
+    height: 370px;
+    cursor: pointer;
+    backface-visibility: visible;
+    width: 101%;
+}
+.about_me_back, .about_me_page2, .about_me_page4, .about_me_page6 {
+    border-bottom-right-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.about_me_front, .about_me_page1, .about_me_page3, .about_me_page5 {
+    border-bottom-right-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.about_me_back, .about_me_front>img, .about_me_page1, .about_me_page2, .about_me_page3, .about_me_page4, .about_me_page5, .about_me_page6 {
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 350px;
+    height: 90%;
+    top: 0;
+    left: 0;
+    transform-origin: left center;
+    transition: transform .5s ease-in-out,box-shadow .35s ease-in-out;
+}
+.about_me_social>div{
+
+    line-height: 30px;
+    text-align: left;
+    padding-left: 30px;
+    font-size:16px;
+}
+.about_me_page5>div,.about_me_page5>img {
+    /* letter-spacing: 1px;
+    line-height: 5px; */
+   
+    text-align: center;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.about_me_page4,.about_me_page3 {
+    background-color: #f5f5f5;
+}
+.about_me_page2,.about_me_page1 {
+    background-color: #efefef;
+}
+.about_me_page6 {
+    background-color: #fdfdfd;
+}
+.about_me_page5 {
+    background-color: #fafafa;
+}
+.about_me_title-description>a{
+    color: #1a272b;
+}
+.about_me_title-description>a:focus, .about_me_title-description>a:hover {
+    color: #225581;
+}
+.about_me_btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    display: inline-flex;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid transparent;
+    box-shadow: 1px 3px 5px rgb(71, 56, 56);
+}
+.about_me_btn-info.active, .about_me_btn-info:focus, .about_me_btn-info:hover {
+    color: #333;
+    text-decoration: none;
+    background-color: #39b3d7;
+    border-color: #269abc;
+    box-shadow: 0px 5px 12px rgb(71, 56, 56);
+}
+.about_me_book:hover .about_me_back {
+    transform: rotateY(-20deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page6 {
+    transform: rotateY(-50deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page5 {
+    transform: rotateY(-130deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page4 {
+    transform: rotateY(-40deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page3 {
+    transform: rotateY(-140deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page2 {
+    transform: rotateY(-30deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_page1 {
+    transform: rotateY(-150deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+.about_me_book:hover .about_me_front {
+    transform: rotateY(-160deg) scale(1.1);
+    box-shadow: 0 1em 3em 0 rgb(0 0 0 / 20%);
+}
+a:link {
+    text-decoration: none;
+    
+}
+
